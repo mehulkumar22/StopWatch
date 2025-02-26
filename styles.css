@@ -1,0 +1,157 @@
+@import url(https://db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons);
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Permanent+Marker&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+
+*{
+  padding: 0;
+  margin: 0;
+  background-color:black;
+  color: white;
+  overflow-x: hidden;
+}
+
+.main{
+  align-content: center;
+  padding: 20px;
+  min-height: 90vh;
+  max-height:max-content;
+}
+.main-img{
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.main-img img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.head{
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  padding-bottom: 100px;
+  font-size: 50px;
+  width: 100%;
+  margin: auto;
+}
+
+.display{
+  font-family: "clockicons";
+  margin: auto;
+  text-align: center;
+  font-size: 80px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.milliseconds {
+  font-size: 0.5em;
+  vertical-align: text-bottom;
+} 
+
+.controls{
+  margin: auto;
+  width: 50%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.controls button{
+  font-family: "Bebas Neue", sans-serif;
+  font-size:20px;
+  width: 90px;
+  height: 50px;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.start{
+  background-color:green;
+
+}
+
+.stop{
+  background-color: red;
+}
+
+.reset{
+  background-color: orange;
+}
+
+.lap{
+  background-color:blue;
+}
+
+.start:hover{
+  background-color: lime;
+  color: black;
+}
+
+.stop:hover{
+  background-color:orangered;
+}
+.reset:hover{
+  background-color: tomato;
+}
+
+.lap:hover{
+  background-color: cornflowerblue;
+  color: black;
+}
+
+.lap-time {
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  font-size: 1.2em;
+  background-color: steelblue;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+footer{
+  font-size: 12px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+@media (orientation: portrait) {
+  .head{
+    margin: 0;
+    width: 100%;
+    font-size: 35px;
+    padding-bottom: 50px;
+  }
+
+  .display{
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .main-img img{
+    max-width: 150px;
+  }
+  .controls button{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .lap-time {
+    width: 60%;
+  }
+
+  footer{
+    font-size: 8px;
+  }
+}
