@@ -10,7 +10,7 @@ Welcome to the Web Stopwatch project! This is a simple, yet efficient web-based 
 - ⏳ Millisecond Precision: Ensures precise time measurement.  
 
 ## Live Link
-- https://mehulkumar22.github.io/StopWatch/
+  Visit the live version: [Web Stopwatch](https://mehulkumar22.github.io/StopWatch/)  
 ## Technologies Used  
 
 - **HTML**: For the structure of the web page.  
